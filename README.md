@@ -1,3 +1,5 @@
+**Abandonded!** I have been extremely busy with other projects and have not had time to look into this project. If someone would like to take over it's development I am more than open to the idea of adding you in as a contributor to the repo so you can manage it. Until someone takes over, this will be flagged as abandoned.
+
 ## Laravel Resque
 
 This package allows you to connect to Resque when using `Queue`. 
