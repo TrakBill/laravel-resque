@@ -23,7 +23,7 @@ class ResqueConnector implements ConnectorInterface {
 	{
 		if (!isset($config['host']))
 		{
-			$config = Config::get('database.redis.default');
+			$config = Config::get('database.resque.default');
 
 			if (!isset($config['host']))
 			{
