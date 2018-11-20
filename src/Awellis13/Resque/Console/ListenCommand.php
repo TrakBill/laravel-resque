@@ -52,7 +52,7 @@ class ListenCommand extends Command {
 		$interval = $this->input->getOption('interval');
 
 		// Configuration
-		$config = Config::get('database.redis.default');
+		$config = Config::get('database.resque.default');
 
 		if (!isset($config['host']))
 		{
